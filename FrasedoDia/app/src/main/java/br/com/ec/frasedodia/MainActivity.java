@@ -28,13 +28,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Random random = new Random();
-                int i = random.nextInt(4);
+                int i = random.nextInt(frases.length);
                 textFraseDia.setText(frases[i].toUpperCase().toString());
             }
         });
-
-
-
         //Log.i("MainActivity","msg -> "+ frases[1].toUpperCase().toString() );
     }
 }

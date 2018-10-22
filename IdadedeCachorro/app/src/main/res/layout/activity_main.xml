@@ -5,50 +5,76 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBody"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/floquinho"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/floquinho" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/caixaTxt"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="84dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="49dp"
         android:background="@android:color/background_light"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="85dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="307dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:background="@android:color/holo_blue_bright"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginStart="38dp"
+        android:background="#00bbff"
         android:editable="false"
+        android:fontFamily="monospace"
         android:padding="5dp"
         android:text="Digite a idade do seu cachorro, parar descobrir a idade dele em anos humanos."
-        android:textAlignment="center"
-        android:textColor="@android:color/background_light"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/caixaTxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="141dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="" />
 
     <Button
         android:id="@+id/btnPrincipal"
         android:layout_width="217dp"
-        android:layout_height="73dp"
-        android:layout_marginTop="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
         android:text="Descobrir idade"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        tools:layout_editor_absoluteX="84dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResult"/>
+
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrincipal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caixaTxt" />
 
 </android.support.constraint.ConstraintLayout>

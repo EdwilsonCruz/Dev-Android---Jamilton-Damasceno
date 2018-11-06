@@ -6,4 +6,9 @@
     <string name="Consultoria">Consultoria</string>
     <string name="Processos">Processos</string>
     <string name="Acompanhamento_Projetos">Acompanhamento de Projetos</string>
+    <string name="Empresa_Soft">Empresa de software</string>
+    <string name="Empresa_Audi">Empresa de auditoria</string>
+    <string name="emailEd">consultoria@atm.com</string>
+    <string name="telnumero">(18) 228-666-9998</string>
+    <string name="celnumero">(18) 922-556-9898</string>
 </resources>

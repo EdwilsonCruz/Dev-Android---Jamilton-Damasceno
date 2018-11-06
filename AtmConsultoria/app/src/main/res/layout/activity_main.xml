@@ -29,10 +29,13 @@
         android:layout_height="165dp"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/logoImg"
+        android:layout_marginEnd="4dp"
         android:layout_marginLeft="40dp"
+        android:layout_marginRight="4dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="45dp"
         android:src="@drawable/menu_empresa"
+        app:layout_constraintEnd_toStartOf="@+id/idServico"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logoImg" />
 
@@ -43,10 +46,13 @@
         android:layout_alignEnd="@+id/logoImg"
         android:layout_alignTop="@+id/idEmpresa"
         android:layout_marginEnd="40dp"
+        android:layout_marginLeft="4dp"
         android:layout_marginRight="40dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="45dp"
         android:src="@drawable/menu_servico"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idEmpresa"
         app:layout_constraintTop_toBottomOf="@+id/logoImg" />
 
     <ImageView
@@ -56,10 +62,13 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/logoImg"
         android:layout_marginBottom="80dp"
+        android:layout_marginEnd="4dp"
         android:layout_marginLeft="40dp"
+        android:layout_marginRight="4dp"
         android:layout_marginStart="40dp"
         android:src="@drawable/menu_contato"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/idCliente"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idEmpresa"
         app:layout_constraintVertical_bias="0.04" />
@@ -72,10 +81,13 @@
         android:layout_alignTop="@+id/idContato"
         android:layout_marginBottom="80dp"
         android:layout_marginEnd="40dp"
+        android:layout_marginLeft="4dp"
         android:layout_marginRight="40dp"
+        android:layout_marginStart="4dp"
         android:src="@drawable/menu_cliente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idContato"
         app:layout_constraintTop_toBottomOf="@+id/idServico"
         app:layout_constraintVertical_bias="0.04" />
 </android.support.constraint.ConstraintLayout>

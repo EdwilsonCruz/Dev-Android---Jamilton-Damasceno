@@ -10,10 +10,11 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:src="@drawable/detalhe_empresa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,17 +27,16 @@
 
         android:layout_marginTop="44dp"
         android:layout_toEndOf="@+id/imageView2"
-        android:text="TextView"
+        android:text="@string/empresa_detalhe"
         android:textColor="@android:color/background_dark"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="101dp"
-        tools:text="@string/empresa_detalhe" />
+        tools:layout_editor_absoluteX="101dp" />
 
     <ScrollView
-        android:layout_width="320dp"
-        android:layout_height="400dp"
+        android:layout_width="344dp"
+        android:layout_height="464dp"
         android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
         android:background="#68aaaaaa">
@@ -45,6 +45,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsun" />
+            android:text="Lorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsunLorem ipsun"
+            android:textSize="15sp" />
     </ScrollView>
 </RelativeLayout>

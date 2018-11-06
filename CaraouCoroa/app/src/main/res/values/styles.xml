@@ -8,8 +8,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="counterText">@style/colorAccent</style>
-
-    <style name="counterOverride">@style/colorAccent</style>
-
 </resources>
